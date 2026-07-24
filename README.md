@@ -7,8 +7,7 @@ A responsive Dictionary Web App built using HTML, CSS, and JavaScript. This appl
 🔗 Add your GitHub Pages link here after deployment.
 
 Example:
-https://ER-Nisha-Sahu.github.io/Dictionary/
-
+ https://er-nisha-sahu.github.io/Dictionary/
 ---
 
 ## 📌 About the Project
