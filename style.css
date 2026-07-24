@@ -1,0 +1,100 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+                url("book3.webp");
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            filter: opacity(50%);
+            margin-top: 100px;
+            /* opacity:1; */
+        }
+
+        .container {
+            background-color: rgb(233, 211, 182);
+            box-shadow: 10px 10px 10px rgb(76, 45, 5);
+                      border-radius: 30px;
+             width: 100%;
+            max-width: 500px;
+            min-height: 500px;
+
+            /* border-radius: 25px; */
+            padding: 30px 20px;
+        }
+
+        .box {
+            text-align: center;
+            color: rgb(215, 85, 128);
+            color: aliceblue;
+            font-size: 18px;
+        }
+
+        #word {
+            height: 40px;
+            width: 350px;
+            border: none;
+            outline: none;
+            border-bottom: 2px solid rgb(76, 45, 5);
+            background: none;
+            border-radius: 10px;
+            font-size: 20px;
+            margin-left: 30px;
+            color: rgb(76, 45, 5);
+
+            /* color: rgb(165, 194, 219); */
+        }
+
+        .srch-icon {
+           
+            font-size: 25px;
+            text-align: center;
+            margin: 10px 0px 0px 10px;
+            color: rgb(129, 89, 37);
+            background: none;
+            border: none;
+
+        }
+
+        h1 {
+            text-align: center;
+            color: rgb(129, 89, 37);
+        }
+
+        #meaning {
+            margin-top: 20px;
+            color: rgb(216, 88, 131);
+            font-size: 25px;
+            transition: 0.3s;
+        }
+                /* Mobile Responsive */
+        @media(max-width: 576px) {
+
+            .container{
+                padding: 25px 15px;
+                border-radius: 20px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            #word {
+                font-size: 16px;
+                height: 42px;
+            }
+
+            .srch-icon {
+                font-size: 20px;
+            }
+
+            #meaning {
+                font-size: 18px;
+            }
+        }
